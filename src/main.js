@@ -3,7 +3,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import 'bootstrap/dist/css/bootstrap.css'
 import App from './App.vue'
-import router from './router'
+// import router from './router'
 
 Vue.use(VueAxios, axios)
 // Vue.use(bootstrap)
@@ -11,6 +11,6 @@ Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+  // router,
   render: h => h(App)
 }).$mount('#app')
